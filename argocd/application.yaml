@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: color
+  namespace: argocd
+spec:
+  destination:
+    namespace: demo
+    name: in-cluster
+  project: default
+  source:
+    path: base/
+    repoURL: https://github.com/kwkoo/color.git
+    kustomize: {}
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true

@@ -1,0 +1,19 @@
+# Overrides COLOR_LOWER_LIMIT and COLOR_UPPER_LIMIT environment variables
+# to filter for blue objects
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- ../base/
+
+patches:
+- target:
+    kind: StatefulSet
+    name: color
+  patch: |-
+    - op: replace
+      path: /spec/template/spec/containers/0/env/0/value
+      value: "90,25,25"
+    - op: replace
+      path: /spec/template/spec/containers/0/env/1/value
+      value: "120,255,255"

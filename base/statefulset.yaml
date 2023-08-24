@@ -36,6 +36,8 @@ spec:
           value: "0"
         - name: TRACKER_MAX_DISTANCE
           value: "100"
+        - name: CONTOUR_MERGE_THRESHOLD
+          value: "30"
         - name: DRAW_CENTER_LINE
           value: "1"
         - name: V4L_WHITE_BALANCE_AUTOMATIC

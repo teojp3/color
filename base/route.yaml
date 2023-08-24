@@ -12,5 +12,5 @@ spec:
     name: color
   tls:
     termination: edge
-    insecureEdgeTerminationPolicy: Redirect
+    insecureEdgeTerminationPolicy: Allow
 status: {}

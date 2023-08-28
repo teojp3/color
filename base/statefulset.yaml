@@ -37,7 +37,7 @@ spec:
         - name: MOVEMENT_HORIZONTAL
           value: "0"
         - name: TRACKER_MAX_DISTANCE
-          value: "150"
+          value: "200"
         - name: CONTOUR_MERGE_THRESHOLD
           value: "20"
         - name: KERNEL_CLOSE

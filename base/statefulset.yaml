@@ -33,7 +33,7 @@ spec:
         #- name: COLOR_UPPER_LIMIT
         #  value: "120,255,255"
         - name: DETECTION_ZONE_WIDTH
-          value: "50"
+          value: "30"
         - name: MOVEMENT_HORIZONTAL
           value: "0"
         - name: TRACKER_MAX_DISTANCE

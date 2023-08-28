@@ -53,7 +53,7 @@ spec:
         - name: V4L_AUTO_EXPOSURE
           value: "1"
         - name: V4L_EXPOSURE_TIME_ABSOLUTE
-          value: "100"
+          value: "40"
         - name: V4L_EXPOSURE_DYNAMIC_FRAMERATE
           value: "0"
         - name: V4L_FOCUS_ABSOLUTE

@@ -32,10 +32,12 @@ spec:
         #  value: "90,25,25"
         #- name: COLOR_UPPER_LIMIT
         #  value: "120,255,255"
+        - name: DETECTION_ZONE_WIDTH
+          value: "50"
         - name: MOVEMENT_HORIZONTAL
           value: "0"
         - name: TRACKER_MAX_DISTANCE
-          value: "100"
+          value: "150"
         - name: CONTOUR_MERGE_THRESHOLD
           value: "20"
         - name: KERNEL_CLOSE

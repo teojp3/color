@@ -40,8 +40,10 @@ spec:
           value: "200"
         - name: CONTOUR_MERGE_THRESHOLD
           value: "20"
+        - name: KERNEL_OPEN
+          value: "10"
         - name: KERNEL_CLOSE
-          value: "30"
+          value: "10"
         - name: DRAW_CENTER_LINE
           value: "1"
         - name: V4L_WHITE_BALANCE_AUTOMATIC

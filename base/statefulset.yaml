@@ -24,7 +24,7 @@ spec:
         env:
         # green
         - name: COLOR_LOWER_LIMIT
-          value: "49,45,2"
+          value: "49,45,30"
         - name: COLOR_UPPER_LIMIT
           value: "73,191,211"
         # blue

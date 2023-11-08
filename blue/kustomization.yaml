@@ -16,4 +16,4 @@ patches:
       value: "75,30,30"
     - op: replace
       path: /spec/template/spec/containers/0/env/1/value
-      value: "110,250,250"
+      value: "110,225,225"

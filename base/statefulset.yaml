@@ -33,7 +33,7 @@ spec:
         #- name: COLOR_UPPER_LIMIT
         #  value: "120,255,255"
         - name: CROP_COORDS
-          value: "250,0,390,0,440,390,250,480"
+          value: "250,0,390,0,390,480,250,480"
         - name: DETECTION_ZONE_WIDTH
           value: "30"
         - name: MOVEMENT_HORIZONTAL

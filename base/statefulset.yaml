@@ -23,15 +23,15 @@ spec:
         name: color-detection
         env:
         # green
-        - name: COLOR_LOWER_LIMIT
-          value: "45,66,133"
-        - name: COLOR_UPPER_LIMIT
-          value: "72,154,215"
-        # blue
         # - name: COLOR_LOWER_LIMIT
-        #   value: "90,25,25"
+        #   value: "45,66,133"
         # - name: COLOR_UPPER_LIMIT
-        #   value: "120,255,255"
+        #   value: "72,154,215"
+        # blue
+        - name: COLOR_LOWER_LIMIT
+          value: "90,25,25"
+        - name: COLOR_UPPER_LIMIT
+          value: "120,255,255"
         # - name: CROP_COORDS
         #   value: "250,0,390,0,390,480,250,480"
         - name: DETECTION_ZONE_WIDTH

@@ -47,7 +47,7 @@ spec:
         - name: KERNEL_CLOSE
           value: "10"
         - name: DRAW_CENTER_LINE
-          value: "1"
+          value: "0"
         - name: V4L_WHITE_BALANCE_AUTOMATIC
           value: "0"
         - name: V4L_GAIN

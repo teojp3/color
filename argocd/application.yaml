@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: base/
-    repoURL: https://github.com/kwkoo/color.git
+    repoURL: https://github.com/teojp3/color.git
     kustomize: {}
     targetRevision: HEAD
   syncPolicy:

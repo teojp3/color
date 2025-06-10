@@ -19,7 +19,7 @@ spec:
       securityContext:
         runAsGroup: 0
       containers:
-      - image: ghcr.io/kwkoo/color-detection:latest
+      - image: ghcr.io/kwkoo/color-detection
         name: color-detection
         env:
         # green

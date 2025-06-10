@@ -20,7 +20,7 @@ spec:
         runAsGroup: 0
       containers:
       - image: ghcr.io/teojp3/jpt-color-detection:latest
-        name: color-detection
+        name: jpt-color-detection
         env:
         # green
         - name: COLOR_LOWER_LIMIT

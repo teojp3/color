@@ -31,10 +31,15 @@ spec:
         # - name: COLOR_UPPER_LIMIT
         #   value: "72,154,215"
         # red
-        - name: COLOR_LOWER_LIMIT
+        - name: COLOR_LOWER_LIMIT_1
           value: "0,70,50"
-        - name: COLOR_UPPER_LIMIT
+        - name: COLOR_UPPER_LIMIT_1
           value: "10,255,255"
+        
+        - name: COLOR_LOWER_LIMIT_2
+          value: "170,70,50"
+        - name: COLOR_UPPER_LIMIT_2
+          value: "180,255,255"
         # Dont change  
         # - name: CROP_COORDS
         #   value: "250,0,390,0,390,480,250,480"

@@ -20,9 +20,7 @@ spec:
         runAsGroup: 0
       containers:
       # Green
-      # - image: ghcr.io/teojp3/jpt-color-detection:green
-      # Red
-      - image: ghcr.io/teojp3/jpt-color-detection:red
+      - image: ghcr.io/teojp3/jpt-color-detection:green
         name: color-detection
         env:
         # green
@@ -30,11 +28,11 @@ spec:
         #   value: "45,66,133"
         # - name: COLOR_UPPER_LIMIT
         #   value: "72,154,215"
-        # red
+        # blue
         - name: COLOR_LOWER_LIMIT
-          value: "0,70,70"
+         value: "90,25,25"
         - name: COLOR_UPPER_LIMIT
-          value: "10,255,255"
+         value: "120,255,255"
         # Dont change  
         # - name: CROP_COORDS
         #   value: "250,0,390,0,390,480,250,480"

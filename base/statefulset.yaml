@@ -32,9 +32,10 @@ spec:
         #   value: "72,154,215"
         # red
         - name: COLOR_LOWER_LIMIT
-          value: "5,70,50"
+          value: "0,150,150"    # lower hue 0°, saturation high (rich red), brightness moderate to avoid noise
         - name: COLOR_UPPER_LIMIT
-          value: "15,255,255"
+          value: "10,255,255"   # hue up to ~10° to cover warm reds fully
+
         # Dont change  
         # - name: CROP_COORDS
         #   value: "250,0,390,0,390,480,250,480"
